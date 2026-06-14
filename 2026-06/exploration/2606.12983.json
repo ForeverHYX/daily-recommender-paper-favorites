@@ -1,5 +1,6 @@
 {
   "paper_id": "2606.12983",
+  "item_type": "paper",
   "title": "Structured Testbench Generation for LLM-Driven HDL Design and Verification-Oriented Data Curation",
   "abstract": "Automated testbench generation has become a critical bottleneck in large language model (LLM)-driven Register Transfer Level (RTL) workflows, where large numbers of candidate designs must be verified rapidly and reliably. Existing prompt-based approaches treat testbench generation as unconstrained code synthesis, yielding stochastic outputs with high token cost, low reproducibility, and insufficient coverage. To address this gap, we present STG, a Structured Testbench Generation framework that exploits the inherent structure of hardware designs to generate deterministic testbenches. As a direct verification tool, STG runs 720x faster than an iterative LLM-based testbench generation flow and higher rate of successful compilation, achieves higher coverage, and reduces false-pass verdicts on incorrect DUTs. STG also helps identify errors in RTL generation benchmarks by exposing faulty benchmark testbenches. As a data curation engine, it is 11x faster than LLM-based filtering on a single CPU core with 127x less energy, and the resulting distilled models provide state-of-the-art performance in our multi-benchmark evaluation. As a test-time scaling oracle, it reduces node count by 14-47\\%. Our models are available at https://huggingface.co/collections/AS-SiliconMind/siliconmind-v12.",
   "authors": [
@@ -27,5 +28,7 @@
   "rating": "like",
   "created_at": "2026-06-14T06:53:57.17318+00:00",
   "arxiv_url": "https://arxiv.org/abs/2606.12983",
+  "repository_url": "",
+  "paper_links": [],
   "pdf_url": "https://arxiv.org/pdf/2606.12983.pdf"
 }

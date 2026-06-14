@@ -1,5 +1,6 @@
 {
   "paper_id": "2606.12753",
+  "item_type": "paper",
   "title": "On the Limits of Performance Portability in Directive-Based GPU Programming",
   "abstract": "The transition of scientific applications to GPU-accelerated exascale systems is constrained by trade-offs between performance, portability, and productivity. This work evaluates the performance portability of directive-based GPU programming by porting gPLUTO, a production-grade magnetohydrodynamics code for astrophysical simulations, from OpenACC to OpenMP, and analyzing its performance on NVIDIA A100 (Leonardo Booster) and AMD MI250X (LUMI-G) devices. On NVIDIA platforms, OpenACC and OpenMP achieve comparable performance due to a shared compiler backend, providing a consistent baseline for assessing algorithmic efficiency. In contrast, the same OpenMP implementation is approximately three times slower at the application level on AMD MI250X with respect to the NVIDIA A100 OpenACC baseline, with kernel-level slowdowns reaching up to an order of magnitude, driven by sensitivity to strided memory-access patterns and compiler limitations. Kernel-level profiling shows that the dominant contributors to run-time are memory-latency-bound rather than limited by peak band-width. In low-parallelism kernels, C++ abstraction layers increase register pressure and spilling, leading to extreme slowdowns of up to 47x in specific cases. These results indicate that portable performance across GPU architectures requires not only application-level changes but also continued advances in compiler backends and architecture-aware optimization strategies",
   "authors": [
@@ -20,5 +21,7 @@
   "rating": "like",
   "created_at": "2026-06-13T19:22:41.769649+00:00",
   "arxiv_url": "https://arxiv.org/abs/2606.12753",
+  "repository_url": "",
+  "paper_links": [],
   "pdf_url": "https://arxiv.org/pdf/2606.12753.pdf"
 }

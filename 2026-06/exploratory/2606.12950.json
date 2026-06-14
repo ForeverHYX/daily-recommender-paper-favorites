@@ -1,5 +1,6 @@
 {
   "paper_id": "2606.12950",
+  "item_type": "paper",
   "title": "Maestro: Workload-Aware Cross-Cluster Scheduling for LLM-Based Multi-Agent Systems",
   "abstract": "Large Language Model based Multi-Agent Systems (LLM-MAS) have emerged as a powerful paradigm for tackling complex tasks by breaking them into collaborative workflows of specialized LLM-powered agents. However, deploying such multi-agent workloads at scale poses significant system challenges. Each user query spawns an iterative pipeline of LLM calls, greatly amplifying resource consumption compared to single-turn queries. In resource-constrained cloud settings, these workflows face non-deterministic and input-dependent costs at decode stage, heavy-tailed multi-model requirements with memory fragmentation and over-provisioning, and cross-cluster scheduling trade-offs. We present Maestro, a workload-aware scheduling system designed for LLM-MAS serving under strict GPU budgets. Maestro explicitly leverages agent semantics and roles: it predicts the output length and memory usage of each stage and uses this prediction to drive a hierarchical scheduler. At the node level, Maestro enables dynamic multi-model co-location via hierarchical weight caching and elastic memory provisioning. At the cluster level, it performs latency-aware routing to avoid cold-start delays and memory overloads. At the global level, it enforces workflow-aware prioritization to minimize head-of-line blocking for interactive tasks. Across prototype experiments and trace-driven simulations, Maestro reduces KV-reservation HBM by 67.2% and improves high-contention SLO attainment over EDF by 23.6 percentage points.",
   "authors": [
@@ -21,5 +22,7 @@
   "rating": "like",
   "created_at": "2026-06-14T06:54:28.337708+00:00",
   "arxiv_url": "https://arxiv.org/abs/2606.12950",
+  "repository_url": "",
+  "paper_links": [],
   "pdf_url": "https://arxiv.org/pdf/2606.12950.pdf"
 }

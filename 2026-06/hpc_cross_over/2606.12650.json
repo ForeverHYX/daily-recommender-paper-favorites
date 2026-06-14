@@ -1,5 +1,6 @@
 {
   "paper_id": "2606.12650",
+  "item_type": "paper",
   "title": "nomp: A Framework for Building Domain Specific Compilers",
   "abstract": "The low-level GPU programming models (CUDA, HIP, OpenCL, etc.) provide detailed control of the data flow and execution plan of a program in order to extract close-to-metal performance. However, these have a steep learning curve due to the intricacies of their syntax and semantics. This reduces programmer productivity. On the other hand, high-level models (OpenMP, OpenACC, etc.) that serve as abstractions over the low-level models are aimed at improving programmer productivity but achieving performance on-par with the low-level models is a challenge. There are inherent trade-offs between productivity, portability and performance in both approaches and there is no one-size-fits-all solution which achieves all three simultaneously. However, we believe there is room to improve programmer productivity without sacrificing performance and portability by reusing optimization patterns specific to a given domain. To this end, we propose nomp: a framework for building domain specific compilers. nomp consists of a pragma based programming model and a runtime capable of code transformation and generation based on user provided metadata.",
   "authors": [
@@ -26,5 +27,7 @@
   "rating": "like",
   "created_at": "2026-06-14T06:15:01.604391+00:00",
   "arxiv_url": "https://arxiv.org/abs/2606.12650",
+  "repository_url": "",
+  "paper_links": [],
   "pdf_url": "https://arxiv.org/pdf/2606.12650.pdf"
 }
