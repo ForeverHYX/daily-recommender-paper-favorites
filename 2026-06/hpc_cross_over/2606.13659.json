@@ -1,0 +1,24 @@
+{
+  "paper_id": "2606.13659",
+  "title": "Specifying Hardware Communication as Programs",
+  "abstract": "To test and debug hardware modules, it is common to write two programs: a driver, which translates high-level transactions into interactions on the module's input and output signals, and a monitor, which analyzes a signal-level execution trace and recognizes a transaction. These two programs are commonly implemented separately for each hardware protocol, but this separation entails manual effort and risks inconsistencies. We advocate an alternative approach. We present a DSL in which users specify hardware communication protocols as succinct imperative programs. Crucially, the same specification can be used to both drive designs and monitor transactions. We present the design of a tool, which given a specification in our DSL and a waveform, automatically infers a transaction-level trace consistent with the waveform. We discuss plans to evaluate our DSL on real-world interconnects such as Wishbone and AXI-Stream.",
+  "authors": [
+    "Ernest Ng",
+    "Nikil Shyamsunder",
+    "Francis Pham",
+    "Adrian Sampson",
+    "Kevin Laeufer"
+  ],
+  "affiliations": [
+    "Cornell University Ithaca NY USA"
+  ],
+  "categories": [
+    "cs.PL",
+    "cs.AR"
+  ],
+  "section": "hpc_cross_over",
+  "rating": "like",
+  "created_at": "2026-06-14T06:15:28.830507+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.13659",
+  "pdf_url": "https://arxiv.org/pdf/2606.13659.pdf"
+}

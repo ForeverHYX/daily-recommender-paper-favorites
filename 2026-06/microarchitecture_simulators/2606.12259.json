@@ -1,0 +1,21 @@
+{
+  "paper_id": "2606.12259",
+  "title": "Partitioned Tags, Shared Data: Reconciling Strict Cache Isolation with Write-Shared Coherence",
+  "abstract": "Cache partitioning is among the strongest structural defenses against eviction-based cache side channels, yet a decade-old design issue has blocked its widespread deployment in secure shared-OS settings. The issue is that write-shared coherence collapses under strict partitioning. We present SCP (Secure and Coherent Partitioning), which combines strict eviction isolation with write-shared coherence by partitioning only the tags, sharing a single data pool, and sizing the data pool so capacity-driven cross-partition eviction cannot occur. Timing obfuscation extends protections to the inter-partition lookup path. Coherence-based leakage on shared-writeable lines is mitigated by routing those writes through to the LLC once a leakage threshold is crossed, which makes attacker write probe latency independent of victim activity. Using gem5 for implementation, SCP mitigates Prime+Probe and Flush+Reload, which are the basis for more sophisticated cache attacks. We also demonstrate that a shared-writeable-line attack is mitigated. All these attacks yield results no better than random guessing. SCP's hardware cost is a modest +2.8% LLC SRAM. Performance matches DAWG within 0.3% IPC on the SPEC CPU2017 benchmarks that we evaluated. Sharing-intensive microbenchmarks demonstrate a tunable security-performance tradeoff based on a system-specified leakage threshold.",
+  "authors": [
+    "Kartik Ramkrishnan",
+    "Stephen McCamant",
+    "Antonia Zhai",
+    "Pen Chung Yew"
+  ],
+  "affiliations": [],
+  "categories": [
+    "cs.CR",
+    "cs.AR"
+  ],
+  "section": "microarchitecture_simulators",
+  "rating": "like",
+  "created_at": "2026-06-14T06:14:36.474213+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.12259",
+  "pdf_url": "https://arxiv.org/pdf/2606.12259.pdf"
+}
