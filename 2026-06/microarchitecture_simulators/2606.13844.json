@@ -1,0 +1,26 @@
+{
+  "paper_id": "2606.13844",
+  "item_type": "paper",
+  "title": "Ramulator 2.1: A Composable Memory System Simulator for Modern DRAM Systems",
+  "abstract": "Ramulator 2.1 is a major overhaul of Ramulator 2.0 that substantially improves the simulator in three directions: 1) support of modern and emerging DRAM and memory-controller features, 2) better usability and extensibility of the simulator, and 3) more comprehensive tests and validation workflows. Ramulator 2.1 adds support for advanced features in recent and emerging DRAM standards and memory controllers, including HBM3/4, LPDDR5/6, and GDDR7. To improve usability and extensibility, Ramulator 2.1 introduces a Python-based modeling and configuration interface backed by a two-way code-generation framework that 1) hides low-level C++ code behind high-level DRAM specifications written in Python, and 2) automatically creates Python proxies for all components of the simulator. Doing so enables users to rapidly create variants of DRAM standards and automate design-space-exploration workflows. To improve trustworthiness in simulation results, Ramulator 2.1 provides a comprehensive testing and validation infrastructure that covers both 1) fine-grained validation of specific DRAM timing constraints and memory-controller scheduling behavior, and 2) system-level performance evaluation using latency-throughput curves. To aid performance analysis and debugging, Ramulator 2.1 also includes an easy-to-use and high-performance DRAM command trace visualizer. Ramulator 2.1 is open-source on GitHub and under active development.",
+  "authors": [
+    "Haocong Luo",
+    "F. Nisa Bostancı",
+    "Ataberk Olgun",
+    "Maria Makeenkova",
+    "Ziad Malik",
+    "Ipek Akdeniz",
+    "Onur Mutlu"
+  ],
+  "affiliations": [],
+  "categories": [
+    "cs.AR"
+  ],
+  "section": "microarchitecture_simulators",
+  "rating": "like",
+  "created_at": "2026-06-15T07:10:12.478293+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.13844",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.13844.pdf"
+}
