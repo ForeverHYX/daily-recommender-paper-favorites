@@ -1,0 +1,33 @@
+{
+  "paper_id": "2606.13501",
+  "item_type": "paper",
+  "title": "GF-DiT: Scheduling Parallelism for Diffusion Transformer Serving",
+  "abstract": "Diffusion Transformers (DiTs) have become the dominant architecture for image and video generation, creating growing demand for efficient DiT serving. Existing systems assign each request a fixed parallel configuration throughout its lifetime. However, DiT workloads exhibit substantial heterogeneity across requests, execution stages, and system conditions, making static parallelism inefficient and often leading to poor GPU utilization and degraded service quality. This paper argues that DiT serving should treat GPU parallelism as a first-class schedulable resource. We present GF-DiT, a policy-programmable runtime for elastic DiT serving that dynamically adapts the parallelism of running requests according to workload demands and service objectives. GF-DiT introduces an asynchronous execution abstraction that decomposes requests into independently schedulable trajectory tasks and enables online GPU reallocation. To make elastic parallelism practical, GF-DiT further proposes group-free collectives, a lightweight communication abstraction that supports low-overhead online formation and reconfiguration of arbitrary execution groups. We implement GF-DiT in vLLM-Omni and evaluate it on representative image and video diffusion workloads. Compared with fixed-pipeline execution with static parallelism, GF-DiT improves throughput by up to 6.01$\\times$, reduces mean latency by up to 95%, lowers SLO violation rates by up to 90%, and reduces communication-group setup overhead from 778 ms to approximately 60 $μ$s.",
+  "authors": [
+    "Xinwei Qiang",
+    "Yifan Hu",
+    "Shixuan Sun",
+    "Jing Yang",
+    "Han Zhao",
+    "Chen Chen",
+    "Yu Feng",
+    "Jingwen Leng",
+    "Minyi Guo"
+  ],
+  "affiliations": [
+    "Shanghai Jiao Tong University Shanghai China",
+    "Guizhou University Guiyang China"
+  ],
+  "categories": [
+    "cs.DC",
+    "cs.LG",
+    "cs.PF"
+  ],
+  "section": "exploration",
+  "rating": "like",
+  "created_at": "2026-06-15T12:18:38.350892+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.13501",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.13501.pdf"
+}

@@ -1,0 +1,27 @@
+{
+  "paper_id": "2606.14566",
+  "item_type": "paper",
+  "title": "Extended Abstract: Re-Evaluating the Real-System Modeling Accuracy of Ramulator 2.0",
+  "abstract": "Cycle-level DRAM simulators provide accurate and flexible models for DRAM and memory controller operations and enable research on current and future memory systems. Therefore, they are critical for improving the performance, efficiency, and robustness of DRAM-based memory systems. Ramulator 2.0 (successor of Ramulator) is a highly modular and extensible cycle-accurate DRAM simulator that enables rapid exploration of new ideas in DRAM-based memory systems. A MICRO 2024 best paper runner-up publication, A Mess of Memory System Benchmarking, Simulation and Application Profiling, which we refer to as \"the Mess paper,\" with all three artifact badges awarded (including \"Reproducible\"), proposes a new benchmark to evaluate real and simulated memory system performance. While doing so, it makes strong negative claims about Ramulator 2.0 and shows unexpected results. In this talk and the associated extended abstract, we demonstrate that these results and claims in the Mess paper are incorrect and are due to configuration and simulator usage errors made in the Mess paper. We describe four best practices to aid users and developers of simulation tools to avoid such issues in the future. We emphasize the importance of contacting simulator authors and developers when unexpected results are observed (especially and importantly before publishing such results), to ensure these simulators are used with correct configurations and as intended. Our investigation also aims to stimulate discussion on artifact evaluation practices and on mechanisms for correcting results and artifacts after publication. To aid future works and reproduction of all our results, we open source all our code and scripts at https://github.com/CMU-SAFARI/Cleaning-up-the-Mess. We refer the reader to our full ISPASS 2026 paper and its artifact for the complete analysis, detailed methodology, and extended results.",
+  "authors": [
+    "F. Nisa Bostanci",
+    "Haocong Luo",
+    "Ataberk Olgun",
+    "Maria Makeenkova",
+    "Geraldo F. Oliveira",
+    "A. Giray Yaglikci",
+    "Onur Mutlu"
+  ],
+  "affiliations": [],
+  "categories": [
+    "cs.AR",
+    "cs.PF"
+  ],
+  "section": "microarchitecture_simulators",
+  "rating": "like",
+  "created_at": "2026-06-15T12:16:47.980927+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.14566",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.14566.pdf"
+}

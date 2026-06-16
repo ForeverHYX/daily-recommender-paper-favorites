@@ -1,3 +1,9 @@
 [submodule "repositories/lmcache-lmcache"]
 	path = repositories/lmcache-lmcache
 	url = https://github.com/LMCache/LMCache
+[submodule "repositories/puppeteer-puppeteer"]
+	path = repositories/puppeteer-puppeteer
+	url = https://github.com/puppeteer/puppeteer
+[submodule "repositories/nvidia-skillspector"]
+	path = repositories/nvidia-skillspector
+	url = https://github.com/NVIDIA/SkillSpector
