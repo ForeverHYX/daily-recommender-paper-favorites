@@ -1,0 +1,26 @@
+{
+  "paper_id": "2606.15834",
+  "item_type": "paper",
+  "title": "AIChilles: Automatically Uncovering Hidden Weaknesses in AI-Evolved Systems",
+  "abstract": "The computer systems community has recently seen growing interest in AI-driven system evolution, where AI agents iteratively rewrite systems. Frameworks such as AdaEvolve and Engram report 12-60% score improvements over human-designed algorithms. While these results are promising, there are practical concerns if these AI-evolved programs can perform worse on unseen workloads and exhibit scalability regressions. Given the speed and scale of AI-generated code, we need automated mechanisms to uncover such identify hidden weaknesses in AI-evolved systems programs. To this end, we develop AIChilles that takes as input a baseline program $P$ and an AI-evolved program $P'$, AIChilles searches for valid workloads where $P'$ regresses relative to $P$ in correctness, runtime, memory usage, or output quality. To tackle the diversity in system applications, weakness types and potential bugs, AIChilles combines deterministic workload-parameter extraction, agent-based constraint inference, differential oracles, and code-frequency coverage to discover diverse failures. Across five system applications and 30 AI-evolved programs, AIChilles finds 49 distinct hidden weaknesses. We also show that explicitly including AIChilles in the AI-driven development lifecycle can mitigate several of these weaknesses.",
+  "authors": [
+    "Yajie Zhou",
+    "Ao Li",
+    "Ashwin Silla",
+    "Zaoxing Liu",
+    "Vyas Sekar"
+  ],
+  "affiliations": [],
+  "categories": [
+    "cs.AI",
+    "cs.CR",
+    "eess.SY"
+  ],
+  "section": "exploratory",
+  "rating": "like",
+  "created_at": "2026-06-16T11:45:16.993717+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.15834",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.15834.pdf"
+}

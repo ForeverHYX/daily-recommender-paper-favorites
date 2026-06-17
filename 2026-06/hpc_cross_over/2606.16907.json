@@ -1,0 +1,23 @@
+{
+  "paper_id": "2606.16907",
+  "item_type": "paper",
+  "title": "Tangram: Hiding GPU Heterogeneity for Efficient LLM Parallelization",
+  "abstract": "The scale of LLM training jobs requires parallelization planning over large GPU clusters. Due to different GPU types and interconnects added over time, these GPU clusters are increasingly heterogeneous. Automatic LLM parallelizers can search for parallelization plans but face an exploding search space with heterogeneous GPUs. To make search tractable in heterogeneous GPU clusters, parallelizers often omit types of parallelism (e.g., expert parallelism) or memory-saving techniques (e.g., ZeRO), which results in worse plans. We describe Tangram, a system that enables the use of existing heterogeneity-unaware LLM parallelizers in heterogeneous GPU clusters by decoupling parallelization planning from GPU heterogeneity. For this, Tangram exploits two insights: (1) since bulk purchases result in sets of GPUs with similar compute, memory, and connectivity, Tangram can expose such homogeneous GPU islands to existing parallelizers; and (2) parallelizers commonly first partition models and then parallelize partitions. Tangram can compose such model slices, assigned to GPU islands, into work-balanced pipelines for high throughput. Tangram integrates with existing parallelizers through a narrow API, which relies on the enumeration of model-slice/island pairs. Tangram achieves up to 2.3x higher training throughput than current heterogeneous parallelizers (Metis and Sailor) and scales to large GPU clusters by pruning enumerated plans.",
+  "authors": [
+    "Yanda Tao",
+    "Pedro F. Silvestre",
+    "Marcel Wagenländer",
+    "Peter Pietzuch"
+  ],
+  "affiliations": [],
+  "categories": [
+    "cs.DC"
+  ],
+  "section": "hpc_cross_over",
+  "rating": "like",
+  "created_at": "2026-06-16T11:43:38.061744+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.16907",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.16907.pdf"
+}

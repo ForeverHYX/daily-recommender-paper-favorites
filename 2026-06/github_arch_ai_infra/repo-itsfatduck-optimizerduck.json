@@ -1,0 +1,34 @@
+{
+  "paper_id": "repo:itsfatduck/optimizerDuck",
+  "item_type": "repository",
+  "title": "itsfatduck/optimizerDuck",
+  "abstract": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.\n\noptimizerDuck **optimizerDuck is a free, open-source Windows optimization tool focused on performance, privacy, and simplicity.** **Getting Started | How It Works | FAQ** **English** | Tiếng Việt | 繁體中文 | 简体中文 | Русский | Français | 한국어 | Español | 日本語 | Polski | Português (BR) ⭐ Star History If optimizerDuck helped improve your PC, consider giving the repo a ⭐ and sharing it with others. Every star helps motivate future improvements. --- Quick Start 1. Download from **GitHub Releases** 2. Run the .exe directly, no installation required 3. Choose the optimizations you want, apply them, and restart your PC when you're ready > [!TIP] > Always create a **system restore point** before making changes. > [!NOTE] > | | Language | Native Name | Translator | > |------|----------|-------------|------------| > | 🇺🇸 | English (United States) | English | Primary & recommended | > | 🇻🇳 | Vietnamese | Tiếng Việt | itsfatduck | > | 🇹🇼 | Traditional Chinese | 正體中文 | abc0922001 | > | 🇨🇳 | Simplified Chinese | 简体中文 | wcxu21 | > | 🇷🇺 | Russian | Русский | Foodhead | > | 🇫🇷 | French | Français | Robocnop | > | 🇰🇷 | Korean | 한국어 | klfnn | > | 🇪🇸 | Spanish | Español | thexxtt | > | 🇯🇵 | Japanese | 日本語 | zerofrip | > | 🇵🇱 | Polish | Polski | dudus2000 | > | 🇧🇷 | Portuguese (Brazil) | Português (Brasil) | mhanelia | > Want to add your language? See CONTRIBUTING.md (Japanese). --- What optimizerDuck Does Windows itself is fine. But a clean install also comes with services, telemetry, pre-installed apps, and scheduled tasks you've probably never heard of, all quietly running in the background, consuming your CPU, RAM, and disk. At the same time, some features that could actually help you get the most out of your hardware aren't enabled by default. optimizerDuck gives you a single interface to clean up the bloat and unlock the good stuff. It applies targeted system tweaks to reduce overhead and block unwanted behavior, and bundles several management tools so you can see what is running, remove what you do not want, and revert any change if something goes wrong. > [!NOTE] > Every optimization can be applied manually. optimizerDuck just makes it easier for you to apply these optimizations. System Optimizations Over 30 tweaks across 6 categories, each with a clear description and risk rating so you know exactly what each change does before applying it. | Category | What it covers | | :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- | | **Performance** | Service host tuning based on your RAM, process priority adjustments, keyboard latency reduction, and multimedia scheduler tweaks for smoother gaming | | **Privacy** | Disable Windows telemetry, error reporting, advertising ID, location tracking, Cortana, Copilot, and content delivery suggestions | | **GPU** | Vendor-specific registry tweaks for AMD, NVIDIA, and Intel GPUs, covering power states, clock gating, and display latency | | **Power** | Disable hibernation and fast startup, turn off USB selective suspend, install a custom high-performance power plan, and disable power throttling | | **Bloatware & Services** | Block OEM app reinstall behavior and fine-tune startup types for 200+ Windows services | | **User Experience** | Remove menu show delays, disable visual effects like taskbar animations and transparency for a snappier feel | > [!NOTE] > The optimizations here are researched from well-known tools with large user bases, nothing is AI-generated or blindly added. Every tweak is chosen for real-world impact. Customize No need to dig through the registry, just toggles, dropdowns, and number inputs presented in one place. Organized into four categories: - **Desktop**: Show or hide icons (This PC, Recycle Bin, Network, User Files, Control Panel), remove shortcut arrow overlays - **Preferences**: Taskbar alignment, widgets, Task View and End Task buttons, clock seconds, dark mode, file extensions, hidden files, clipboard history, compact view, snap assist, item checkboxes, classic context menu, and Bing search - **Gaming**: Game Mode, Game Bar, background recording, mouse acceleration, fullscreen optimizations, hardware-accelerated GPU scheduling - **System**: Enable Num Lock on boot Built-in Tools | Tool | What it does | | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | | **System Dashboard** | View your CPU, RAM, GPU, storage drives, and OS details in one panel | | **Startup Manager** | See every app and task that launches at boot, toggle them on or off, and open their file location | | **Scheduled Tasks** | Browse, run, stop, enable, disable, or delete Windows scheduled tasks | | **Disk Cleanup** | Scan and clear temp files, system cache, Windows Update leftovers, prefetch, thumbnails, recycle bin, crash dumps, and old Windows installations | | **Bloatware Remover** | Lists all removable AppX packages with risk badges (Safe, Caution, Unknown), so you can pick what to remove | --- Safety Changing system settings carries risk. optimizerDuck is built around reversibility and user control. See the Privacy Policy for details on our data practices. - **Automatic backups**: Every change writes a revert file to a local folder. You can restore individual tweaks or roll back everything - **One-click revert**: Undo any applied optimization from the UI with a single click - **Risk ratings**: Each tweak is labeled Safe, Moderate, or Risky based on its potential impact - **No defaults applied**: Nothing runs until you select it. The tool does not enable anything on its own - **Restore point prompt**: Before your first optimization, the app suggests creating a Windows restore point --- FAQ Is optimizerDuck safe to use? Yes. optimizerDuck is fully **open-source** (GPL v3), meaning anyone can inspect, audit, or build the source code t",
+  "authors": [
+    "itsfatduck"
+  ],
+  "affiliations": [],
+  "categories": [
+    "github",
+    "C#",
+    "csharp",
+    "debloat",
+    "dotnet",
+    "gaming",
+    "open-source",
+    "optimization",
+    "optimizer",
+    "optimizerduck",
+    "performance",
+    "privacy",
+    "tweaker",
+    "tweaks",
+    "windows",
+    "winui"
+  ],
+  "section": "github_arch_ai_infra",
+  "rating": "like",
+  "created_at": "2026-06-16T11:47:45.48443+00:00",
+  "arxiv_url": "",
+  "repository_url": "https://github.com/itsfatduck/optimizerDuck",
+  "paper_links": []
+}

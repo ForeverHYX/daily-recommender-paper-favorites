@@ -7,3 +7,9 @@
 [submodule "repositories/nvidia-skillspector"]
 	path = repositories/nvidia-skillspector
 	url = https://github.com/NVIDIA/SkillSpector
+[submodule "repositories/mikeroyal-self-hosting-guide"]
+	path = repositories/mikeroyal-self-hosting-guide
+	url = https://github.com/mikeroyal/Self-Hosting-Guide
+[submodule "repositories/itsfatduck-optimizerduck"]
+	path = repositories/itsfatduck-optimizerduck
+	url = https://github.com/itsfatduck/optimizerDuck

@@ -1,0 +1,32 @@
+{
+  "paper_id": "2606.15994",
+  "item_type": "paper",
+  "title": "Agentic Framework for Deep Learning workload migration via In-Context Learning",
+  "abstract": "Translating deep learning models from PyTorch's flexible, object-oriented design to JAX's functional, stateless setup is usually a manual and error-prone task. Automated migration is challenging because Large Language Models (LLMs) struggle with strict and dynamic API alignment and are prone to mistakes for exacting operations. We propose a fully autonomous system that combines In-Context Learning (ICL) with oracle-driven self-debugging. First, we curated an ICL context that serves as a strict reference for idiomatic JAX styling and test case generation. Second, instead of depending on the LLM to deduce mathematical outputs, we run the source PyTorch modules to get their actual dynamic tensor states. This creates an unchangeable execution oracle. We then use an autonomous agentic loop to synthesize tests based on the oracle data. The test cases are executed repeatedly, and the traceback is sent back to the LLM for self-correction. Ablations show that combining ICL references with oracle grounding and self-debugging greatly outperforms pure instructional and basic agentic baselines. This improvement does not add an excessive computational overhead. Our lightweight pipeline achieves 91% numerical equivalence (compared to baseline: 9%, instruction + self-debugging: 27%) on neural modules, providing a highly reliable, scalable blueprint for cross-framework migration. This has been validated across several state-of-the-art models including SAM (segment anything), T5, Code Whisper amongst others showing high numerical equivalency. Code: https://github.com/AI-Hypercomputer/accelerator-agents/tree/main/MaxCode",
+  "authors": [
+    "Qiyue Liang",
+    "Steven Ingram",
+    "George Vanica",
+    "Andi Gavrilescu",
+    "Newfel Harrat",
+    "Hassan Sipra",
+    "Sethuraman Sankaran"
+  ],
+  "affiliations": [
+    "Google, Sunnyvale, CA",
+    "Google, Kirkland, WA",
+    "Google, Mountain View, CA",
+    "Google, New York, NY"
+  ],
+  "categories": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "section": "exploration",
+  "rating": "like",
+  "created_at": "2026-06-16T11:47:22.390377+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.15994",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.15994.pdf"
+}

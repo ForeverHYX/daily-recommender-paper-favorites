@@ -1,0 +1,40 @@
+{
+  "paper_id": "repo:mikeroyal/Self-Hosting-Guide",
+  "item_type": "repository",
+  "title": "mikeroyal/Self-Hosting-Guide",
+  "abstract": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.\n\nSelf Hosting Guide A guide for getting started with Self Hosting devices including software and hardware that will make you a better and more efficient Self Hosting. **Note: You can easily convert this markdown file to a PDF in VSCode using this handy extension Markdown PDF.** **Note 2: This guide will constantly be updated with new info as becomes available and please feel to make an issue if you think something should be added.** Table of Contents 1. Getting Started with Self-Hosting - Tools for Self-Hosting * Containers * CI/CD * Development * Web servers * Large language models (LLMs) * ChatGPT Chatbots * Automation * Configuration Management * Cloud Storage * Cloud * Linode * Nextcloud * DigitalOcean * Back4app Web Deployment * MinIO Object Storage * Databases - SQL - NoSQL * Remote Access * Virtualization * Password Management * SSH * VPN * LDAP(Lightweight Directory Access Protocol) * Log Management * DNS * Network Tools * Service Discovery * Security * Troubleshooting * Monitoring * Dashboards * Analytics * Search * Notifications * RSS * Websites/Blogs * Social * Nostr * iMessage * Communications * Business Management * Collaboration & Synchronization * Encryption * Backups * Snapshots Management/System Recovery * Archiving * Home Server * Media Server * Smart Home Automation * Voice Assistants * Video Surveillance * Text-To-Speech Synthesis (TTS) * Video and Audio Processing * Podcasting * Audiobooks * Health * Gardening * Maps * Bookmarks * Photos * Pastebins * Note-Taking * Time Monitoring * Wikis * Gaming * Foundations/Projects - System Hardware - Operating Systems - Storage - File systems - Books - Podcasts - YouTube Channels - Tutorials & Resources - Useful Subreddits to Follow 2. WireGuard * What is WireGuard? * What is Tailscale? * What is Netmaker? * WireGuard Tools * Setting up WireGuard with PiVPN * Setting up WireGuard on Unraid * Setting up WireGuard on pfSense * Setting up WireGuard on OpenWRT * Setting up WireGuard on Home Assistant 3. Nextcloud 4. Raspberry Pi * Models of Raspberry Pi boards * Raspberry Pi Learning Resources * Raspberry Pi Operating Systems * Raspberry Pi Tools - Getting Started with Home Assistant(HA) - Getting Started with Homebridge - Getting Started with ESPHome - Turning Raspberry Pi into a Router - Setting up Watchdog Time (WDT) on Raspberry Pi * Raspberry Pi Upgrades 5. Grafana 6. Networking 7. Docker 8. Kubernetes 9. Ansible 10. Databases 11. Telco 5G 12. Open Source Security 13. Differential Privacy 14. Machine Learning 15. IoT Protocols 16. Operating systems (OS) 17. Middleware 18. Node Flow editors 19. Toolkits 20. Data visualization 21. Search 22. Hardware 23. In-memory data grids 24. Home automation 25. Robotics 26. Mesh networks 27. Blockchain Development 28. Node.js Development 29. C/C++ Development 30. Java Development 31. Python Development 32. Rust Development 33. Swift Development 34. XML Development Getting Started with Self-Hosting Back to the Top Self-Hosting is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from Software as a service (SaaS) providers. Most self-hosted software can be installed using Docker), a packaging system which allows software to bundle their configuration and dependencies and isolate them from your operating system. Software using docker can be installed using the command line or via graphical interfaces such as Portainer. Software is installed with Docker by downloading an image file containing the application, then creating a copy that sets up its own dependencies and configuration within what is called a container. Without containers you would often need to install different versions of the same programming languages or tools to satisfy the dependencies for the software you want to use which can get complicated. Tools for Self-Hosting Back to the Top Containers Back to the Top **Container** is a standard unit of software that packages up code and all its dependencies(including CPU, memory, file storage, and network connections) so the application runs quickly and reliably from one computing environment to another. * Application Container Security Guide | NIST (PDF) **Container Image** is a lightweight, standalone, executable package of software that includes everything needed to run an application such as the code, runtime, system tools, system libraries, and settings. **Best places to get Container Images:** * DockerHub Container Images * LinuxServer.io Container Images * Quay Container Images Docker Compose is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down. Docker Include is a Compose application can declare dependency on another Compose application. This is useful if you want to reuse other Compose files. Also, if you need to factor out parts of your application model into separate Compose files so they can be managed separately or shared with others. Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes or OpenShift. SwarmKit is a toolkit for orchestrating distributed systems at any scale. It includes primitives for node discovery, raft-based consensus, task scheduling and more. Containerd is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows. ContainersSSH is an SSH Server that Launches Containers in Kubernetes and Docker on demand. Podman is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface (CLI) familiar to an",
+  "authors": [
+    "mikeroyal"
+  ],
+  "affiliations": [],
+  "categories": [
+    "github",
+    "Dockerfile",
+    "authentication",
+    "awesome",
+    "awesome-list",
+    "decentralized",
+    "docker-compose",
+    "home-assistant",
+    "home-automation",
+    "linux",
+    "oauth",
+    "observability",
+    "open-source",
+    "privacy",
+    "raspberry-pi",
+    "reverse-proxy",
+    "search",
+    "self-hosted",
+    "self-hosting",
+    "selfhosted",
+    "ssh",
+    "wireguard"
+  ],
+  "section": "github_arch_ai_infra",
+  "rating": "like",
+  "created_at": "2026-06-16T11:47:53.077834+00:00",
+  "arxiv_url": "",
+  "repository_url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+  "paper_links": []
+}
