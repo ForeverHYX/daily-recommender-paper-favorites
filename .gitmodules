@@ -19,3 +19,6 @@
 [submodule "repositories/deusdata-codebase-memory-mcp"]
 	path = repositories/deusdata-codebase-memory-mcp
 	url = https://github.com/DeusData/codebase-memory-mcp
+[submodule "repositories/zai-org-glm-5"]
+	path = repositories/zai-org-glm-5
+	url = https://github.com/zai-org/GLM-5
