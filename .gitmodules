@@ -13,3 +13,9 @@
 [submodule "repositories/itsfatduck-optimizerduck"]
 	path = repositories/itsfatduck-optimizerduck
 	url = https://github.com/itsfatduck/optimizerDuck
+[submodule "repositories/bytedance-ui-tars-desktop"]
+	path = repositories/bytedance-ui-tars-desktop
+	url = https://github.com/bytedance/UI-TARS-desktop
+[submodule "repositories/deusdata-codebase-memory-mcp"]
+	path = repositories/deusdata-codebase-memory-mcp
+	url = https://github.com/DeusData/codebase-memory-mcp
