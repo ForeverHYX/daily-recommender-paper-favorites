@@ -1,0 +1,33 @@
+{
+  "paper_id": "2606.20005",
+  "item_type": "paper",
+  "title": "StreamKL: Fast and Memory-Efficient KL Divergence for Boosting Attention Distillation",
+  "abstract": "Attention distillation, which trains one attention distribution to match another by minimizing their Kullback-Leibler (KL) divergence, is widely used in knowledge distillation, model compression, continual learning, and sparse-attention LLM training. However, existing approaches materialize both attention distributions before computing the KL reduction, incurring $O(N_QN_K)$ memory and IO costs that become prohibitive at long context lengths. We present StreamKL, the first fused GPU primitive for attention KL divergence that eliminates this quadratic materialization. StreamKL derives a novel online formulation for the coupled two-distribution KL reduction, enabling a single one-pass forward kernel that streams query-key tiles through on-chip SRAM. For the backward pass, StreamKL recomputes attention probabilities tile-by-tile, avoiding storage of quadratic intermediates. We further design and implement efficient GPU kernels with dedicated optimizations. Experiments show StreamKL delivers up to $43\\times$ and $14\\times$ speedups over baseline methods in the forward and backward passes, respectively. Most importantly, StreamKL reduces the extra HBM footprint of attention distillation from $O(N_QN_K)$ to $O(1)$, enabling long-context distillation on a single GPU.",
+  "authors": [
+    "Guangda Liu",
+    "Yiquan Wang",
+    "Chengwei Li",
+    "Wenhao Chen",
+    "Jing Lin",
+    "Yiwu Yao",
+    "Danning Ke",
+    "Wenchao Ding",
+    "Jieru Zhao"
+  ],
+  "affiliations": [
+    "Shanghai Jiao Tong University",
+    "Huawei",
+    "Fudan University"
+  ],
+  "categories": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "section": "exploration",
+  "rating": "like",
+  "created_at": "2026-06-19T17:33:56.706174+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.20005",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.20005.pdf"
+}
