@@ -1,0 +1,28 @@
+{
+  "paper_id": "2606.18958",
+  "item_type": "paper",
+  "title": "LiveStack: OS Support for Cluster-Scale Full-Stack Live Simulation",
+  "abstract": "Cluster-scale full-stack simulation is essential for evaluating distributed software stacks and emerging hardware components before deployment. Such simulation must achieve both full-stack fidelity for the unmodified production stack and the simulation performance required for iterative configuration exploration. However, no existing method achieves both. We present LiveStack, an OS-level approach to cluster-scale full-stack simulation built on top of the Linux virtualization stack. LiveStack comprises four subsystems: simulation-oriented scheduling, live memory hierarchy management, simulation-aware IPC, and distributed simulation orchestration. Together, they coordinate live and modeled components under shared simulated time while controlling interference among co-located live hosts. These mechanisms point toward simulation-native OS support, where simulation control and orchestration become core OS responsibilities.",
+  "authors": [
+    "Yiliang Wan",
+    "Haifeng Sun",
+    "Yihan Yang",
+    "Jonas Kaufmann",
+    "Antoine Kaufmann",
+    "Jialin Li"
+  ],
+  "affiliations": [
+    "8pt National University of Singapore Max Planck Institute for Software Systems"
+  ],
+  "categories": [
+    "cs.DC",
+    "cs.OS"
+  ],
+  "section": "microarchitecture_simulators",
+  "rating": "like",
+  "created_at": "2026-06-21T10:14:25.470195+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2606.18958",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2606.18958.pdf"
+}
