@@ -1,0 +1,33 @@
+{
+  "paper_id": "2607.11262",
+  "item_type": "paper",
+  "title": "GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware-Software Co-Design",
+  "abstract": "Modern LLM (large language model) workloads increasingly rely on optimized GPU kernels through hardware-software co-design. These kernels achieve high-performance through fine-grained dependency scheduling and computation-memory overlap. As such, they incur new challenges on existing GPU performance models. Instruction-driven simulators are costly to adapt to evolving architectures, while analytical models are too coarse to capture kernels' characteristics. We propose GPU-Tile-Sim, a tile-centric GPU simulation framework for LLM hardware-software co-design. The key insight is that modern LLM kernel performance is governed less by individual instruction latency than by the dependency structure that controls execution order and overlap. Accordingly, GTSim represents kernel execution as a warp-level tile graph whose nodes capture tile-level operations and whose edges encode data and ordering constraints. Using this representation, we design an automatic tile-graph frontend and a graph-driven simulation backend. We evaluate GTSim on representative GEMM, attention, and end-to-end LLM inference workloads. On A100 and H100 across both conventional and highly optimized kernels, GTSim achieves high performance-modeling accuracy (MAPE, Mean Absolute Percentage Error, 1.22%--8.71%). We further extend GTSim to Blackwell with preliminary validation, and demonstrate its effectiveness in analyzing software and architectural design choices.",
+  "authors": [
+    "Yitong Ding",
+    "Jiawei Huang",
+    "Renyang Guan",
+    "Yangjie Zhou",
+    "Zihan Liu",
+    "Yu Feng",
+    "Shixuan Sun",
+    "Mingyi Guo",
+    "Jingwen Leng",
+    "Jian Weng"
+  ],
+  "affiliations": [
+    "Shanghai Jiao Tong University China",
+    "National University of Singapore Singapore",
+    "King Abdullah University of Science and Technology (KAUST) Saudi Arabia"
+  ],
+  "categories": [
+    "cs.DC"
+  ],
+  "section": "exploration",
+  "rating": "like",
+  "created_at": "2026-07-14T18:03:22.845854+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2607.11262",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2607.11262.pdf"
+}

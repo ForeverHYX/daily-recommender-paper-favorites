@@ -1,0 +1,26 @@
+{
+  "paper_id": "2607.11294",
+  "item_type": "paper",
+  "title": "From Tool Invocation to Source-Mechanism Exploration: Protected White-Box DSE for Open-Source EDA",
+  "abstract": "Open-source EDA tools allow design-space exploration (DSE) to move beyond public knobs and into bounded source-level mechanisms inside staged optimizers. We present ReviewDSE, a protected white-box DSE framework that explores such mechanisms for a target design. ReviewDSE evaluates complete source candidates under a protected evaluator and records reusable search knowledge as reviewed mechanism-level evidence. It first constructs method evidence and source-start branches from calibration designs, then uses these fixed warm-start products to initialize target-case exploration under Teacher review and full-flow validation. We instantiate ReviewDSE on OpenROAD detailed placement as a representative staged open-source EDA optimizer. Across nine target tasks, ReviewDSE reduces final post-DPL half-perimeter wirelength (HPWL) by 1.78\\% on average under a 2$\\times$ runtime gate, compared with 0.38\\% for public-knob black-box DSE. A runtime-aware ReviewDSE selection retains a 1.68\\% reduction at 1.11$\\times$ runtime, and full-flow review exposes stage-composability failures while source-mechanism exploration repairs hard cut-row legality failures.",
+  "authors": [
+    "Zhiyu Zheng",
+    "Yiming Du",
+    "Ziyi Wang",
+    "Zhiang Wang"
+  ],
+  "affiliations": [
+    "Fudan University Shanghai China",
+    "The Chinese University of Hong Kong Hong Kong China"
+  ],
+  "categories": [
+    "cs.AR"
+  ],
+  "section": "agentic_architecture",
+  "rating": "like",
+  "created_at": "2026-07-14T18:04:21.507267+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2607.11294",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2607.11294.pdf"
+}
