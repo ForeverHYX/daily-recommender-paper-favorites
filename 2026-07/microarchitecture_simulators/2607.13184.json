@@ -1,0 +1,26 @@
+{
+  "paper_id": "2607.13184",
+  "item_type": "paper",
+  "title": "Microflow: Microarchitectural Causal Observability for Deep Cross-Layer Analysis and Optimization",
+  "abstract": "Existing architectural simulators expose aggregate metrics or raw traces, but fail to reveal complex interactions among microarchitectural events and their relationship to program execution. Consequently, architects observe performance symptoms but cannot systematically attribute them to root causes across abstraction layers. This paper introduces Microflow, an observability framework elevating causality to a first-class analytical object. Microflow transforms execution traces into the Microflow Intermediate Representation (MFIR), explicitly capturing dependencies across software semantics, instructions, microarchitectural events, and hardware resources. By unifying these elements, MFIR enables direct traversal from observed stalls to their underlying causes, paving the way for automated root-cause analysis. Microflow precisely attributes stalls, reveals unobservable phenomena, and enables exact critical-path decomposition through counterfactual analysis. These capabilities allow systematic reasoning about complex hardware-software interactions opaque to existing tools. Making causality queryable, Microflow provides a strong foundation for performance analysis and hardware-software co-design. We demonstrate it on two SPEC CPU 2017 benchmarks, uncovering bottlenecks invisible from aggregate symptoms: hidden misprediction costs in leela and cross-loop-iteration contention in mcf.",
+  "authors": [
+    "Saber Ganjisaffar",
+    "Chengyu Song",
+    "Nael Abu-Ghazaleh"
+  ],
+  "affiliations": [
+    "University of California, Riverside Riverside CA USA"
+  ],
+  "categories": [
+    "cs.AR",
+    "cs.PF",
+    "cs.SE"
+  ],
+  "section": "microarchitecture_simulators",
+  "rating": "like",
+  "created_at": "2026-07-16T12:58:19.29044+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2607.13184",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2607.13184.pdf"
+}

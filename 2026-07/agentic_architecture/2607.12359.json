@@ -1,0 +1,29 @@
+{
+  "paper_id": "2607.12359",
+  "item_type": "paper",
+  "title": "ArchSim: Computer Architecture Simulation as a Service",
+  "abstract": "Conducting a complete computer architecture simulation study is challenging because configuration, execution, and analysis are often encoded implicitly in scripts or directory conventions rather than represented explicitly. As a result, studies are difficult to scale, hard to reproduce, and dependent on custom tooling at every stage. We present ArchSim, which makes the structure of a simulation study explicit. In ArchSim, hardware topologies are described as declarative graphs that automatically generate executable simulation code, eliminating hand-written simulator programs. Stateless runners autonomously claim and execute jobs from a shared experiment store, enabling configuration-benchmark matrices to scale without manual orchestration. Simulation outputs are stored as structured artifacts tied to configurations, benchmarks, and hardware components, enabling systematic result exploration without custom parsers. We evaluate ArchSim on a 12 x 8 = 96-configuration simulation matrix spanning memory-bound, compute-bound, and mixed-intensity GPU workloads. Declarative simulation specifications drive full simulations with a median kernel time error of 0.18% relative to hand-written MGPUSim configurations across 95.8% of configurations. The platform introduces only 1.6 seconds of overhead per simulation, negligible relative to realistic simulation workloads.",
+  "authors": [
+    "Sabila Al Jannat",
+    "Wenhan Lyu",
+    "Le Khanh Trinh Mai",
+    "Huizhi Zhao",
+    "Zhuoyan Zheng",
+    "Katherine E. Isaacs",
+    "Yifan Sun"
+  ],
+  "affiliations": [
+    "William & Mary USA",
+    "The University of Utah USA"
+  ],
+  "categories": [
+    "cs.AR"
+  ],
+  "section": "agentic_architecture",
+  "rating": "like",
+  "created_at": "2026-07-16T12:57:46.135482+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2607.12359",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2607.12359.pdf"
+}
