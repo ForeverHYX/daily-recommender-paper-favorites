@@ -1,0 +1,21 @@
+{
+  "paper_id": "2607.19248",
+  "item_type": "paper",
+  "title": "A Flexible Sparsity-Aware FPGA Accelerator with Column-Wise Compression for Efficient CNN Inference",
+  "abstract": "Efficient acceleration of convolutional neural networks (CNNs) on resource-constrained platforms remains challenging due to the irregularity of sparsity patterns and the associated hardware overhead. While unstructured sparsity offers high model accuracy, it introduces significant inefficiencies in hardware mapping, whereas structured sparsity simplifies execution at the cost of reduced flexibility. This paper presents SparHiXcel-v2, a cost-effective and highly configurable FPGA-based CNN accelerator that achieves an improved balance between sparsity flexibility and hardware efficiency. The proposed architecture is built around a scalable two-dimensional MAC array and introduces a column-wise kernel compression technique that enables efficient handling of irregular sparsity patterns with minimal hardware overhead. To further enhance performance, we propose a hardware-algorithm co-design framework, including an ordering optimization scheme and a multi-phase structured pruning and revival algorithm tailored to the microarchitecture. Extensive evaluations on VGG16 and ResNet18 demonstrate that SparHiXcel-v2 achieves substantial improvements in processing throughput and energy efficiency through the proposed optimizations. In structured sparsity mode, the accelerator reaches over 2.5 TOPS and 210 GOP/s/W for VGG16, and over 1.1 TOPS and 72 GOP/s/W for ResNet18 on a cost-effective AMD Kintex UltraScale+ FPGA, while maintaining modest accuracy degradation.",
+  "authors": [
+    "Amirhossein Zarei",
+    "Shervin Vakili"
+  ],
+  "affiliations": [],
+  "categories": [
+    "cs.AR"
+  ],
+  "section": "microarchitecture_simulators",
+  "rating": "like",
+  "created_at": "2026-07-25T17:58:48.631482+00:00",
+  "arxiv_url": "https://arxiv.org/abs/2607.19248",
+  "repository_url": "",
+  "paper_links": [],
+  "pdf_url": "https://arxiv.org/pdf/2607.19248.pdf"
+}
