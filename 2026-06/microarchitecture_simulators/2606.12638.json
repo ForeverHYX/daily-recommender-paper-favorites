@@ -24,5 +24,6 @@
   "arxiv_url": "https://arxiv.org/abs/2606.12638",
   "repository_url": "",
   "paper_links": [],
-  "pdf_url": "https://arxiv.org/pdf/2606.12638.pdf"
+  "pdf_url": "https://arxiv.org/pdf/2606.12638.pdf",
+  "download_error": "HTTP Error 429: Unknown Error"
 }
